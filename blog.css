@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(224, 231, 231);
+    width: 250px;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebarGo {
+    transform: translate(-250px, 0px);
+    position: absolute;
+}
+
+.sidebar nav {
+    padding: 45px;
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 24px;
+    padding: 20px 0;
+
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+}
+
+.main {
+    background-color: #d6d4d4;
+    width: 80em;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+}
+
+.blogContainer {
+    /* background-color: red; */
+    width: 75vw;
+    height: 57vh;
+    margin: auto;
+    margin-top: 10px;
+    /* display: flex; */
+   
+}
+
+
+.hamburger {
+    display: flex;
+    position: absolute;
+    left: 5px;
+    margin-top: 14px;
+}
+
+img#cross {
+    margin-left: 180px;
+}
+
+.hamburger,
+#ham,
+#cross {
+    height: 23px;
+    width: 23px;
+    cursor: pointer;
+}
+
+
+.blogContainer button {
+    padding: 2px 5px;
+    border-radius: 4px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 10px;
+    margin: 0 1px;
+    cursor: pointer;
+}
+
+.blogContainer button:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.blogContainer h1{
+    font-family: sans-serif;
+}
+.blogContainer p {
+    font-family: cursive;
+    margin-top: revert;
+}

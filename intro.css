@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(224, 231, 231);
+    width: 250px;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebarGo {
+    transform: translate(-250px, 0px);
+    position: absolute;
+}
+
+.sidebar nav {
+    padding: 45px;
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 24px;
+    padding: 20px 0;
+
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    font-family: math;
+}
+
+.main {
+    
+    background-color: rgb(175, 195, 211);
+    width: 80em;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: red; */
+    width: 75vw;
+    height: 57vh;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+}
+.devinfo {
+    display: flex;
+    flex-direction: column;
+}
+.hamburger {
+    display: flex;
+    position: absolute;
+    left: 5px;
+    margin-top: 14px;
+}
+
+img#cross {
+    margin-left: 180px;
+}
+
+.hamburger,
+#ham,
+#cross {
+    height: 23px;
+    width: 23px;
+    cursor: pointer;
+}
+
+.devinfo li {
+   margin-left: 19px;
+}
+.devinfo li a{
+    text-decoration: none;
+    cursor: pointer;
+    font-family: system-ui;
+    color: rgb(41, 64, 240);
+}
+.devinfo li {
+    font-family: system-ui;
+}
+.devinfo h2 {
+    font-family: math;
+}
+.devinfo p {
+    font-family: monospace;
+}
+hr{
+    border: 1px solid black;
+}

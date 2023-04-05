@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(224, 231, 231);
+    position: fixed;
+    width: 208px;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebarGo {
+    transform: translate(-250px, 0px);
+    position: absolute;
+}
+
+.sidebar nav {
+    /* position: fixed; */
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 24px;
+    padding: 20px 0;
+
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+}
+
+.main {
+    background-color: rgb(182, 211, 182);
+    width: 80em;
+    height: 310vh;
+
+}
+
+.container {
+    display: flex;
+}
+
+.servicesContainer {
+    /* background-color: red; */
+    width: 75vw;
+    height: 57vh;
+    margin: auto;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
+
+.hamburger {
+    display: flex;
+    position: absolute;
+    left: 5px;
+    margin-top: 14px;
+}
+
+img#cross {
+    /* position: fixed; */
+    margin-left: 180px;
+}
+
+.hamburger,
+#ham,
+#cross {
+    position: fixed;
+    height: 23px;
+    width: 23px;
+    cursor: pointer;
+}
+
+.servicesContainer li{
+    font-family: monospace;
+    list-style: none;
+}
+.servicesContainer li img{
+margin-top: 18px;
+}
+.servicesContainer hr{
+border: 1px solid black;
+}
+.servicesContainer h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
